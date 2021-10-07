@@ -112,7 +112,7 @@ class RightFixed extends Component {
         return (
             <div>
                 <div className="rightfixed">
-                    <div className="sidebarright">
+                    <div className="sidebarright" style={{height: "60%"}}>
                         {
                             this.state.notSentFriend.map((friend, i) => (
                                 <div className="rightcontent"
