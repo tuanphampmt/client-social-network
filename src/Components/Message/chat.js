@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import socketIOClient from "socket.io-client";
 import "./chat.css"
 
-const ENDPOINT = "http://localhost:4000";
+// const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://server-social-network.vercel.app";
 
 const socket = socketIOClient(ENDPOINT);
 

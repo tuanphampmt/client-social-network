@@ -6,7 +6,7 @@ import * as chatActions from "../../Actions/message.action";
 import {connect} from "react-redux";
 
 const user = JSON.parse(localStorage.getItem('user'));
-const ENDPOINT = "https://tuanpham-social-network.herokuapp.com";
+const ENDPOINT = "https://server-social-network.vercel.app";
 // const ENDPOINT = "http://localhost:4000";
 
 const socket = socketIOClient(ENDPOINT);
