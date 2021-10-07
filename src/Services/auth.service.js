@@ -1,5 +1,4 @@
 import axios from "axios";
-import * as types from "../Constants/index.constant";
 
 const API_URL_AUTH = "https://server-social-network.vercel.app/api/auth/";
 
