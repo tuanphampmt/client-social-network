@@ -101,10 +101,13 @@ class Nav extends Component {
                 headers: AuthService.authHeader()
             });
             const {data} = res;
-            this.setState({
-                notifications: data.notifications,
-                countNotifications: data.notifications.length
-            });
+            if(data.notifications) {
+                this.setState({
+                    notifications: data.notifications,
+                    countNotifications: data.notifications.length
+                });
+            }
+            
         })()
 
     }
