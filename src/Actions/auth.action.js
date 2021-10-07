@@ -1,7 +1,7 @@
 import * as types from '../Constants/index.constant.js'
 import axios from "axios";
 
-const API_URL_AUTH = "https://server-social-network.vercel.app/api/auth/";
+const API_URL_AUTH = "https://server-social-network.herokuapp.com/api/auth/";
 
 // export const login = (email, password) => {
 //     return async dispatch => {

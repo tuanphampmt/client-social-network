@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL_AUTH = "https://server-social-network.vercel.app/api/auth/";
+const API_URL_AUTH = "https://server-social-network.herokuapp.com/api/auth/";
 
 
 export const register = async (email, password, firstName, lastName, birthday, sex) => {

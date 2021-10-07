@@ -3,7 +3,7 @@ import socketIOClient from "socket.io-client";
 import "./chat.css"
 
 // const ENDPOINT = "http://localhost:4000";
-const ENDPOINT = "https://server-social-network.vercel.app";
+const ENDPOINT = "https://server-social-network.herokuapp.com";
 
 const socket = socketIOClient(ENDPOINT);
 

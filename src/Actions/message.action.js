@@ -3,7 +3,7 @@ import axios from "axios";
 import * as AuthService from "../Services/auth-header.service";
 
 
-const API_URL_MESSAGE = "https://server-social-network.vercel.app/api/message";
+const API_URL_MESSAGE = "https://server-social-network.herokuapp.com/api/message";
 
 export const getContactsByStatusIsTrue = () => async dispatch => {
     try {

@@ -2,7 +2,7 @@ import * as types from '../Constants/index.constant.js'
 import axios from "axios";
 import * as AuthService from "../Services/auth-header.service";
 
-const API_URL_USER = "https://server-social-network.vercel.app/api/user";
+const API_URL_USER = "https://server-social-network.herokuapp.com/api/user";
 
 
 export const getAllUsers = () => async dispatch => {
