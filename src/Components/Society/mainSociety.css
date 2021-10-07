@@ -1,6 +1,7 @@
 body {
     overflow: scroll;
-    background-color: #d7dbd7;
+    /* background-color: #d7dbd7; */
+    background: linear-gradient(to bottom, rgb(97, 144, 232), rgb(255, 255, 255), rgb(0, 82, 212));
 }
 
 .people button.btn.btn-danger {
