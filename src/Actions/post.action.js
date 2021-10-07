@@ -2,8 +2,8 @@ import * as types from '../Constants/index.constant.js'
 import axios from "axios";
 import * as AuthService from "../Services/auth-header.service"
 
-const API_URL_POST = "/api/post";
-const API_URL_COMMENT = "/api/comment";
+const API_URL_POST = "https://server-social-network.vercel.app/api/post";
+const API_URL_COMMENT = "https://server-social-network.vercel.app/api/comment";
 
 
 export const getCurrentUserPosts = () => async dispatch => {

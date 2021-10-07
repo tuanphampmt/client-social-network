@@ -2,7 +2,7 @@ import axios from "axios";
 import * as AuthService from "../Services/auth-header.service";
 import * as types from "../Constants/index.constant";
 
-const API_URL_CONTACT = "/api/contact";
+const API_URL_CONTACT = "https://server-social-network.vercel.app/api/contact";
 
 export const getContacts = () => async dispatch => {
     try {

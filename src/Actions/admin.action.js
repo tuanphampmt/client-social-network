@@ -3,7 +3,7 @@ import axios from "axios";
 import * as AuthService from "../Services/auth-header.service"
 import * as types from "../Constants/index.constant";
 
-const API_URL_ADMIN = "/api/admin";
+const API_URL_ADMIN = "https://server-social-network.vercel.app/api/admin";
 
 export const getStats = () => async dispatch => {
     try {
