@@ -6,8 +6,6 @@ import './main-content.css'
 import Nav from "./Header/Nav";
 
 import RightFixed from "./RightFixed";
-import * as userActions from "../../Actions/user.action";
-import * as contactActions from "../../Actions/contact.action";
 import {connect} from "react-redux";
 import * as configSocket from "../../socket/configSocket"
 
