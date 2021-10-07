@@ -1,7 +1,7 @@
 import socketIOClient from "socket.io-client";
 
-// const ENDPOINT = "http://localhost:4000";
-const ENDPOINT = "https://server-social-network.vercel.app";
+const ENDPOINT = "http://localhost:4000";
+// const ENDPOINT = "https://server-social-network.vercel.app";
 export const socket = socketIOClient(ENDPOINT);
 
 export const config  = () => {
