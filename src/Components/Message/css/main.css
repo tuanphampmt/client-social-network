@@ -297,7 +297,7 @@ a.chat-group-left {
 }
 
 .chat-bubble-img-right img, .chat-bubble-img-left img {
-    height: 250px;
+    /* height: 250px; */
     width: 335px;
 }
 
